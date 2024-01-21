@@ -1,0 +1,31 @@
+{
+    "name": "Report Module",
+    "description": "Module that provides a page to generate Report templates",
+    "namespace": "ReportModule\\ExternalModule",
+    "framework-version": 3,
+    "authors": [
+        {
+            "name": "Dávide Muro García",
+            "email": "d.muro@alumnos.upm.es",
+            "institution": "Polytechnic University of Madrid"
+        }
+    ],
+    "permissions": [
+		"redcap_data_entry_form",
+        "redcap_module_project_enable"
+	],
+    "links": {
+      "project": [
+        {
+            "name": "Instructions",
+            "icon": "fas fa-file",
+            "url": "pages/instructions.php"
+         },
+         {
+            "name": "Template Generator",
+            "icon": "fas fa-globe",
+            "url": "pages/project_custom_page.php"
+         }
+      ]
+   }
+}
