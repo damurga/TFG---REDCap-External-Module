@@ -1,0 +1,253 @@
+<mxfile host="65bd71144e">
+    <diagram id="mH1Al9jLPWuHoqc00xgz" name="Página-1">
+        <mxGraphModel dx="3487" dy="1191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-size: 14px&quot;&gt;&quot;Generate report&quot;&lt;/b&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-size: 14px&quot;&gt;&amp;nbsp;b&lt;/b&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;utton clicked&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="503" y="30" width="164" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="503" y="70" as="sourcePoint"/>
+                        <mxPoint x="270" y="150" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="270" y="60"/>
+                            <mxPoint x="476" y="132.5"/>
+                            <mxPoint x="484" y="145"/>
+                            <mxPoint x="481" y="145"/>
+                            <mxPoint x="481" y="135"/>
+                            <mxPoint x="481" y="135"/>
+                            <mxPoint x="481" y="165"/>
+                            <mxPoint x="498" y="125"/>
+                            <mxPoint x="478" y="135"/>
+                            <mxPoint x="478" y="122.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.583;entryY=-0.027;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="667" y="70" as="sourcePoint"/>
+                        <mxPoint x="909.96" y="147.84000000000003" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="910" y="100"/>
+                            <mxPoint x="900" y="90"/>
+                            <mxPoint x="920" y="100"/>
+                            <mxPoint x="792" y="72.5"/>
+                            <mxPoint x="711" y="62.5"/>
+                            <mxPoint x="691" y="72.5"/>
+                            <mxPoint x="691" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="ExternalModule PHP executed" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="150" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="JS &lt;b&gt;&quot;generateReport()&quot;&lt;/b&gt; &quot;function executed" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="150" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;b&gt;File&lt;/b&gt; retrieved from the input and &lt;b&gt;FileReader&lt;/b&gt; object created for reading the content" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="320" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;Record field's names and values&lt;/b&gt; retrieved from the hidden input fields" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="480" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;Data dictionary&lt;/b&gt;&amp;nbsp;retrieved from the hidden input field" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="630" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;b&gt;For&lt;/b&gt; &lt;b&gt;loop over file&lt;/b&gt; content saved as a list of words&amp;nbsp;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="630" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b&gt;Word&amp;nbsp; &lt;/b&gt;directly saved into the final word list" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="810" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Does the word beging with &quot;{&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="309" y="680" width="126" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="22" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="302" y="730" as="sourcePoint"/>
+                        <mxPoint x="180" y="810" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="740"/>
+                            <mxPoint x="282" y="800"/>
+                            <mxPoint x="290" y="812.5"/>
+                            <mxPoint x="287" y="812.5"/>
+                            <mxPoint x="287" y="802.5"/>
+                            <mxPoint x="287" y="802.5"/>
+                            <mxPoint x="287" y="832.5"/>
+                            <mxPoint x="304" y="792.5"/>
+                            <mxPoint x="284" y="802.5"/>
+                            <mxPoint x="284" y="790"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="750" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="750" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="22" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="462" y="792.5" as="sourcePoint"/>
+                        <mxPoint x="570" y="810" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="570" y="740"/>
+                            <mxPoint x="560" y="740"/>
+                            <mxPoint x="479" y="730"/>
+                            <mxPoint x="459" y="740"/>
+                            <mxPoint x="459" y="727.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;b&gt;Word&amp;nbsp; &lt;/b&gt;replaced by the JSON value related to the field (word) name" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="940" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;b&gt;Field (word) options &lt;/b&gt;obtained from the dictionary and saved as a list&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="940" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Is the field of type &quot;options&quot;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="509" y="810" width="126" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="29" target="27">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="502" y="860" as="sourcePoint"/>
+                        <mxPoint x="380" y="940" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="380" y="870"/>
+                            <mxPoint x="482" y="930"/>
+                            <mxPoint x="490" y="942.5"/>
+                            <mxPoint x="487" y="942.5"/>
+                            <mxPoint x="487" y="932.5"/>
+                            <mxPoint x="487" y="932.5"/>
+                            <mxPoint x="487" y="962.5"/>
+                            <mxPoint x="504" y="922.5"/>
+                            <mxPoint x="484" y="932.5"/>
+                            <mxPoint x="484" y="920"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="880" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="880" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="29" target="28">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="662" y="922.5" as="sourcePoint"/>
+                        <mxPoint x="770" y="940" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="770" y="870"/>
+                            <mxPoint x="760" y="870"/>
+                            <mxPoint x="679" y="860"/>
+                            <mxPoint x="659" y="870"/>
+                            <mxPoint x="659" y="857.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;b&gt;Value&amp;nbsp;&lt;/b&gt;saved into the final word list" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="1080" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;b&gt;Word &lt;/b&gt;replaced by data&lt;b&gt;&amp;nbsp;&lt;/b&gt;and data converted into an option from the &lt;b&gt;option's list&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="1080" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;b&gt;Option&amp;nbsp;&amp;nbsp;&lt;/b&gt;saved into the final word list" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="1210" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;span&gt;Keep waiting for the list to be posted&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="370" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Final&lt;b&gt; list of words &lt;/b&gt;saved into a hidden input field and input posted to the PHP page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="1280" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Is the list of words posted?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="209" y="249.39" width="126" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="45">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="202" y="299.39" as="sourcePoint"/>
+                        <mxPoint x="80" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="80" y="309.39"/>
+                            <mxPoint x="182" y="369.39"/>
+                            <mxPoint x="190" y="381.89"/>
+                            <mxPoint x="187" y="381.89"/>
+                            <mxPoint x="187" y="371.89"/>
+                            <mxPoint x="187" y="371.89"/>
+                            <mxPoint x="187" y="401.89"/>
+                            <mxPoint x="204" y="361.89"/>
+                            <mxPoint x="184" y="371.89"/>
+                            <mxPoint x="184" y="359.39"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="319.39" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="49">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="362" y="361.89" as="sourcePoint"/>
+                        <mxPoint x="470" y="381.21539682539685" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="309.39"/>
+                            <mxPoint x="460" y="309.39"/>
+                            <mxPoint x="379" y="299.39"/>
+                            <mxPoint x="359" y="309.39"/>
+                            <mxPoint x="359" y="296.89"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;" edge="1" parent="1" source="49" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;b&gt;$ReportGenerated&lt;/b&gt; variable containing the list of words (report)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="370" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="List of words saved into the &lt;b&gt;report&lt;/b&gt;&amp;nbsp;field of the record using the REDCap function &lt;b&gt;&quot;saveData($ReportGenerated)&quot;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="500" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;direction=east;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="319.39" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="272" y="220" as="sourcePoint"/>
+                        <mxPoint x="480" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
